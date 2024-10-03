@@ -3,7 +3,7 @@
     --color-footer: #343a40;
     --color-text: #555;
     --color-accent: #ff6b6b;
-    --font-family: 'Source Code Pro', monospace;
+    --font-family:  'Arial', sans-serif, 'Source Code Pro', monospace;
 }
 
 body {
