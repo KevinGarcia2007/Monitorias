@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Página Principal</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="./img/logoSena.png" alt="Logo SENA" width="70" height="70"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#oportunidades">Oportunidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonios">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#agregar-testimonio">Agregar Testimonio</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-primary" type="button">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/LOGO APE_color.png" alt="Agencia Pública de Empleo" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Agencia Pública de Empleo</h3>
+                        <p>Servicio de intermediación gratuito, público e indiscriminatorio para la búsqueda de empleo en el país.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/4.LOGOSCLIENTES-ICETEX-min.png" alt="ICETEX" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Icetex</h3>
+                        <p>El programa está dirigido a profesionales universitarios en diferentes áreas que no cuenten con conocimientos de inglés o que requieran perfeccionar sus conocimientos del idioma.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Logo-SENA-FondoEmprender-01.png" alt="Fondo Emprender" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Fondo Emprender</h3>
+                        <p>Fondo de capital semilla creado por el gobierno nacional adscrito al SENA. Financia iniciativas empresariales de aprendices o asociaciones entre aprendices.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="oportunidades">
+        <div class="container mt-5 text-center">
+            <h4>Oportunidades destacadas</h4>
+            <div class="p-3 border mt-3">
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <a href="#" class="btn btn-outline-primary">Trabajo</a>
+                    <a href="#" class="btn btn-outline-primary">Recomendaciones</a>
+                    <a href="#" class="btn btn-outline-primary">Cursos Cortos</a>
+                    <a href="#" class="btn btn-outline-primary">Educación</a>
+                    <a href="#" class="btn btn-outline-primary">Idiomas</a>
+                    <a href="#" class="btn btn-outline-primary">Capacitación</a>
+                    <a href="#" class="btn btn-outline-primary">Becas</a>
+                    <a href="#" class="btn btn-outline-primary">Vocacional</a>
+                    <a href="#" class="btn btn-outline-primary">Cultural</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="my-5">
+        <div class="container text-center">
+            <h3>Testimonios de Usuarios</h3>
+            <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 testimonial-container">
+                                <i class="fas fa-quote-left"></i>
+                                <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="author-info">
+                                        Author Name<br>
+                                        <span class="author-title">Former VP of Company</span>
+                                    </div>
+                                    <img src="https://via.placeholder.com/80" class="rounded-circle" alt="Imagen del Autor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 testimonial-container">
+                                <i class="fas fa-quote-left"></i>
+                                <p class="testimonial-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="author-info">
+                                        Jane Doe<br>
+                                        <span class="author-title">CEO of Example Corp</span>
+                                    </div>
+                                    <img src="https://via.placeholder.com/80" class="rounded-circle" alt="Imagen del Autor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 testimonial-container">
+                                <i class="fas fa-quote-left"></i>
+                                <p class="testimonial-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="author-info">
+                                        John Smith<br>
+                                        <span class="author-title">Marketing Director</span>
+                                    </div>
+                                    <img src="https://via.placeholder.com/80" class="rounded-circle" alt="Imagen del Autor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="agregar-testimonio" class="my-5">
+        <div class="container">
+            <h3>Agregar Testimonio</h3>
+            <form class="mt-4" id="testimonial-form">
+                <div class="mb-3">
+                    <label for="authorName" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="authorName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="authorTitle" class="form-label">Título:</label>
+                    <input type="text" class="form-control" id="authorTitle" required>
+                </div>
+                <div class="mb-3">
+                    <label for="testimonialText" class="form-label">Testimonio:</label>
+                    <textarea class="form-control" id="testimonialText" rows="3" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="imageUpload" class="form-label">Subir Imagen:</label>
+                    <input type="file" class="form-control" id="imageUpload" accept="image/*">
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Agregar Testimonio</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Página Principal. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
